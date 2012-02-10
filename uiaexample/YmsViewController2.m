@@ -36,7 +36,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    UIBarButtonItem *dismissKeyboardButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(dismissKeyboard)];
+    UIBarButtonItem *dismissKeyboardButton = [[UIBarButtonItem alloc] initWithTitle:@"Dismiss" style:UIBarButtonItemStyleBordered target:self action:@selector(dismissKeyboard)];
 
     dismissKeyboardButton.enabled = NO;
     
