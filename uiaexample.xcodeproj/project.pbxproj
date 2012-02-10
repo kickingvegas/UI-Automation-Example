@@ -13,6 +13,12 @@
 		D969A3D414E4E8F100A7C177 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D969A3D214E4E8F100A7C177 /* InfoPlist.strings */; };
 		D969A3D614E4E8F100A7C177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D969A3D514E4E8F100A7C177 /* main.m */; };
 		D969A3DA14E4E8F100A7C177 /* YmsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D969A3D914E4E8F100A7C177 /* YmsAppDelegate.m */; };
+		D969A3E314E4E93E00A7C177 /* YmsViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = D969A3E114E4E93E00A7C177 /* YmsViewController1.m */; };
+		D969A3E814E4E9F200A7C177 /* YmsViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D969A3E614E4E9F200A7C177 /* YmsViewController2.m */; };
+		D969A3E914E4E9F200A7C177 /* YmsViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D969A3E714E4E9F200A7C177 /* YmsViewController2.xib */; };
+		D969A3EB14E4EAAF00A7C177 /* YmsViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = D969A3EA14E4EAAF00A7C177 /* YmsViewController1.xib */; };
+		D969A3EF14E4EBFE00A7C177 /* YmsViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = D969A3ED14E4EBFE00A7C177 /* YmsViewController0.m */; };
+		D969A3F014E4EBFE00A7C177 /* YmsViewController0.xib in Resources */ = {isa = PBXBuildFile; fileRef = D969A3EE14E4EBFE00A7C177 /* YmsViewController0.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,21 @@
 		D969A3C914E4E8F100A7C177 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D969A3CB14E4E8F100A7C177 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D969A3CD14E4E8F100A7C177 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D969A3D114E4E8F100A7C177 /* uiaexample-Info.plist */ = {isa = PBXFileReference; path = "uiaexample-Info.plist"; sourceTree = "<group>"; };
+		D969A3D114E4E8F100A7C177 /* uiaexample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "uiaexample-Info.plist"; sourceTree = "<group>"; };
 		D969A3D314E4E8F100A7C177 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D969A3D514E4E8F100A7C177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D969A3D714E4E8F100A7C177 /* uiaexample-Prefix.pch */ = {isa = PBXFileReference; path = "uiaexample-Prefix.pch"; sourceTree = "<group>"; };
-		D969A3D814E4E8F100A7C177 /* YmsAppDelegate.h */ = {isa = PBXFileReference; path = YmsAppDelegate.h; sourceTree = "<group>"; };
+		D969A3D714E4E8F100A7C177 /* uiaexample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "uiaexample-Prefix.pch"; sourceTree = "<group>"; };
+		D969A3D814E4E8F100A7C177 /* YmsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YmsAppDelegate.h; sourceTree = "<group>"; };
 		D969A3D914E4E8F100A7C177 /* YmsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YmsAppDelegate.m; sourceTree = "<group>"; };
+		D969A3E014E4E93E00A7C177 /* YmsViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YmsViewController1.h; sourceTree = "<group>"; };
+		D969A3E114E4E93E00A7C177 /* YmsViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YmsViewController1.m; sourceTree = "<group>"; };
+		D969A3E514E4E9F200A7C177 /* YmsViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YmsViewController2.h; sourceTree = "<group>"; };
+		D969A3E614E4E9F200A7C177 /* YmsViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YmsViewController2.m; sourceTree = "<group>"; };
+		D969A3E714E4E9F200A7C177 /* YmsViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YmsViewController2.xib; sourceTree = "<group>"; };
+		D969A3EA14E4EAAF00A7C177 /* YmsViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YmsViewController1.xib; sourceTree = "<group>"; };
+		D969A3EC14E4EBFE00A7C177 /* YmsViewController0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YmsViewController0.h; sourceTree = "<group>"; };
+		D969A3ED14E4EBFE00A7C177 /* YmsViewController0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YmsViewController0.m; sourceTree = "<group>"; };
+		D969A3EE14E4EBFE00A7C177 /* YmsViewController0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YmsViewController0.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +90,15 @@
 				D969A3D814E4E8F100A7C177 /* YmsAppDelegate.h */,
 				D969A3D914E4E8F100A7C177 /* YmsAppDelegate.m */,
 				D969A3D014E4E8F100A7C177 /* Supporting Files */,
+				D969A3EC14E4EBFE00A7C177 /* YmsViewController0.h */,
+				D969A3ED14E4EBFE00A7C177 /* YmsViewController0.m */,
+				D969A3EE14E4EBFE00A7C177 /* YmsViewController0.xib */,
+				D969A3E014E4E93E00A7C177 /* YmsViewController1.h */,
+				D969A3E114E4E93E00A7C177 /* YmsViewController1.m */,
+				D969A3EA14E4EAAF00A7C177 /* YmsViewController1.xib */,
+				D969A3E514E4E9F200A7C177 /* YmsViewController2.h */,
+				D969A3E614E4E9F200A7C177 /* YmsViewController2.m */,
+				D969A3E714E4E9F200A7C177 /* YmsViewController2.xib */,
 			);
 			path = uiaexample;
 			sourceTree = "<group>";
@@ -142,6 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D969A3D414E4E8F100A7C177 /* InfoPlist.strings in Resources */,
+				D969A3E914E4E9F200A7C177 /* YmsViewController2.xib in Resources */,
+				D969A3EB14E4EAAF00A7C177 /* YmsViewController1.xib in Resources */,
+				D969A3F014E4EBFE00A7C177 /* YmsViewController0.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +181,9 @@
 			files = (
 				D969A3D614E4E8F100A7C177 /* main.m in Sources */,
 				D969A3DA14E4E8F100A7C177 /* YmsAppDelegate.m in Sources */,
+				D969A3E314E4E93E00A7C177 /* YmsViewController1.m in Sources */,
+				D969A3E814E4E9F200A7C177 /* YmsViewController2.m in Sources */,
+				D969A3EF14E4EBFE00A7C177 /* YmsViewController0.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
