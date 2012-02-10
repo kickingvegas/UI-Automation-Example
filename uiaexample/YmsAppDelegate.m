@@ -7,6 +7,7 @@
 //
 
 #import "YmsAppDelegate.h"
+#import "YmsViewController0.h"
 
 @implementation YmsAppDelegate
 
@@ -17,6 +18,16 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    YmsViewController0 *vc = [[YmsViewController0 alloc] initWithNibName:@"YmsViewController0" bundle:nil];
+    vc.title = @"Home";
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+
+    self.window.rootViewController = navigationController;
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
