@@ -92,9 +92,9 @@ The latency is an issue in getting the sequence of events to send right to your 
 
 The [following app example](https://github.com/kickingvegas/UI-Automation-Example) has three `UIViewController` instances managed by a `UINaviationController`.
 
-![Home](https://github.com/kickingvegas/UI-Automation-Example/blob/gh-pages/images/home_vc.png)
-![VC 1](images/vc1.png)
-![VC 2](images/vc2.png)
+![Home](http://yms.dyndns.biz/~cchoi/uiautomation/images/home_vc.png)
+![VC 1](http://yms.dyndns.biz/~cchoi/uiautomation/images/vc1.png)
+![VC 2](http://yms.dyndns.biz/~cchoi/uiautomation/images/vc2.png)
 
 In this app, tapping on the **Next** button in the navigation bar pushes the next view controller into view.<br/>
 
@@ -102,17 +102,13 @@ In this app, tapping on the **Next** button in the navigation bar pushes the nex
 
 Starting with the **Home** screen, 
 
-><code>
-var target = UIATarget.localTarget();<br/>
-var app = target.frontMostApp();<br/>
-var topNode = app.mainWindow();<br/>
-var button = topNode.buttons()[0];<br/>
+---
+var target = UIATarget.localTarget();
+var app = target.frontMostApp();
+var topNode = app.mainWindow();
+var button = topNode.buttons()[0];
 button.tap();<br/>
-</code>
-
-
-
-
+---
 
 
 ## Closing
