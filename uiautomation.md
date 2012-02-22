@@ -102,14 +102,11 @@ In this app, tapping on the **Next** button in the navigation bar pushes the nex
 
 Starting with the **Home** screen, 
 
----
-var target = UIATarget.localTarget();
-var app = target.frontMostApp();
-var topNode = app.mainWindow();
-var button = topNode.buttons()[0];
-button.tap();<br/>
----
-
+    var target = UIATarget.localTarget();
+    var app = target.frontMostApp();
+    var topNode = app.mainWindow();
+    var button = topNode.buttons()[0];
+    button.tap();<br/>
 
 ## Closing
 
