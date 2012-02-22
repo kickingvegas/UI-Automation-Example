@@ -1,27 +1,3 @@
-<html>
-<head>
-<title>Towards a Conceptual Understanding of UI Automation or "Look Ma, No Hands!"</title>
-<style>
-body {
-    background: #CCCCCC;
-    font-family: Futura, Helvetica, Verdana, sans-serif;
-    font-size: 14pt;
-}
-
-p {
-    font-size: 14pt;
-}
-
-h1 {
-    font-size: 18pt;
-}
-
-h2 {
-    font-size: 16pt;
-}
-</style>
-</head>
-<body>
 # FIRST DRAFT: DO NOT DISTRIBUTE
 
 # Towards a Conceptual Understanding of UI Automation or "Look Ma, No Hands!"
@@ -193,6 +169,4 @@ The following shows the inheritance relationships between the JavaScript classes
 * [Working with UIAutomation](http://alexvollmer.com/posts/2010/07/03/working-with-uiautomation/)
 * [Tuneup JavaScript Library](https://github.com/alexvollmer/tuneup_js)
 
-
-</html>
 
