@@ -57,10 +57,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9608E7B14E731D00062567B /* tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
 		D969A3BA14E4E8F100A7C177 = {
 			isa = PBXGroup;
 			children = (
 				D969A3CF14E4E8F100A7C177 /* uiaexample */,
+				D9608E7B14E731D00062567B /* tests */,
 				D969A3C814E4E8F100A7C177 /* Frameworks */,
 				D969A3C614E4E8F100A7C177 /* Products */,
 			);
@@ -287,6 +295,7 @@
 				D969A3DF14E4E8F100A7C177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
