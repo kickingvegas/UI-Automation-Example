@@ -98,13 +98,30 @@ In this app, tapping on the **Next** button in the navigation bar pushes the nex
 
 ### JavaScript Model Traversal
 
-Starting with the **Home** screen, 
+Starting with the **Home** screen, to traverse to the next screen **VC 1** one would execute the following code:
 
     var target = UIATarget.localTarget();
     var app = target.frontMostApp();
     var topNode = app.mainWindow();
-    var button = topNode.buttons()[0];
-    button.tap();
+    topNode.navigationBar().rightButton().tap();
+    target.delay(3);
+    
+In order to allow for the JavaScript object tree to catch up to the new view hierarchy in **VC 1**, a 3 second delay is made by the call `target.delay(3)`.
+
+To move the next screen **VC 2**, we execute the following code:
+
+    topNode.navigationBar().rightButton().tap();
+    target.delay(3);
+
+To move back to **VC 1**, the following code is executed:
+
+    topNode.navigationBar().leftButton().tap();
+    target.delay(3);
+
+And to return back to *Home*, we execute the following code:
+
+    topNode.navigationBar().leftButton().tap();
+    
 
 ## Closing
 
