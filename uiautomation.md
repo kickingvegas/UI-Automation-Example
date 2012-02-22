@@ -72,13 +72,11 @@ From an iOS SDK perspective, the app view hierarchy can change either within the
 
 Following the example from Figure 1-1 above, if the `UIButton`'s action was to push another `UIViewController` into view, here is example code that would accomplish that:
 
-><code>
-var target = UIATarget.localTarget();<br/>
-var app = target.frontMostApp();<br/>
-var topNode = app.mainWindow();<br/>
-var button = topNode.buttons()[0];<br/>
-button.tap();<br/>
-</code>
+    var target = UIATarget.localTarget();
+    var app = target.frontMostApp();
+    var topNode = app.mainWindow();
+    var button = topNode.buttons()[0];
+    button.tap();
 
 Note that after the `tap()` method is called:
 
@@ -92,8 +90,8 @@ The latency is an issue in getting the sequence of events to send right to your 
 
 The [following app example](https://github.com/kickingvegas/UI-Automation-Example) has three `UIViewController` instances managed by a `UINaviationController`.
 
-![Home](http://yms.dyndns.biz/~cchoi/uiautomation/images/home_vc.png)
-![VC 1](http://yms.dyndns.biz/~cchoi/uiautomation/images/vc1.png)
+![Home](http://yms.dyndns.biz/~cchoi/uiautomation/images/home_vc.png) 
+![VC 1](http://yms.dyndns.biz/~cchoi/uiautomation/images/vc1.png) 
 ![VC 2](http://yms.dyndns.biz/~cchoi/uiautomation/images/vc2.png)
 
 In this app, tapping on the **Next** button in the navigation bar pushes the next view controller into view.<br/>
@@ -106,7 +104,7 @@ Starting with the **Home** screen,
     var app = target.frontMostApp();
     var topNode = app.mainWindow();
     var button = topNode.buttons()[0];
-    button.tap();<br/>
+    button.tap();
 
 ## Closing
 
