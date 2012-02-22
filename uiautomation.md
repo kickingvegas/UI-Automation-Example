@@ -116,7 +116,7 @@ The latency is an issue in getting the sequence of events to send right to your 
 
 The [following app example](https://github.com/kickingvegas/UI-Automation-Example) has three `UIViewController` instances managed by a `UINaviationController`.
 
-![Home](images/home_vc.png)
+![Home](https://github.com/kickingvegas/UI-Automation-Example/blob/gh-pages/images/home_vc.png)
 ![VC 1](images/vc1.png)
 ![VC 2](images/vc2.png)
 
