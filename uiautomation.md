@@ -96,7 +96,7 @@ From an iOS SDK perspective, the app view hierarchy can change either within the
 
 Following the example from Figure 1-1 above, if the `UIButton`'s action was to push another `UIViewController` into view, here is example code that would accomplish that:
 
-> <code>
+><code>
 var target = UIATarget.localTarget();<br/>
 var app = target.frontMostApp();<br/>
 var topNode = app.mainWindow();<br/>
@@ -126,7 +126,7 @@ In this app, tapping on the **Next** button in the navigation bar pushes the nex
 
 Starting with the **Home** screen, 
 
-> <code>
+><code>
 var target = UIATarget.localTarget();<br/>
 var app = target.frontMostApp();<br/>
 var topNode = app.mainWindow();<br/>
