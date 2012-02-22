@@ -90,9 +90,9 @@ The latency is an issue in getting the sequence of events to send right to your 
 
 The [following app example](https://github.com/kickingvegas/UI-Automation-Example) has three `UIViewController` instances managed by a `UINaviationController`.
 
-<img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/home_vc.png' width='75%'/>
-![VC 1](http://yms.dyndns.biz/~cchoi/uiautomation/images/vc1.png) 
-![VC 2](http://yms.dyndns.biz/~cchoi/uiautomation/images/vc2.png)
+<img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/home_vc.png' width='280px'/>
+<img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/vc1.png' width='280px'/>
+<img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/vc2.png' width='280px'/>
 
 In this app, tapping on the **Next** button in the navigation bar pushes the next view controller into view.<br/>
 
