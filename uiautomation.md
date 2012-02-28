@@ -153,7 +153,7 @@ And to return back to *Home*, we execute the following code:
 
 ## Closing
 
-Hopefully this blog post will provide some conceptual guidance on UI Automation. Feedback is welcome.
+Hopefully this blog post will provide some conceptual guidance on UI Automation. A future post will cover running UI Automation from the command line and tie in with Alex Vollmer's [Tuneup](https://github.com/alexvollmer/tuneup_js) library for UI Automation. [Feedback](https://gist.github.com/1930417) is welcome.
 
 
 ## UI Automation JavaScript Class Inheritance Tree
