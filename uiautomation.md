@@ -10,7 +10,7 @@ WWDC 2010 saw the introduction of UI Automation which let folks write UI tests f
 
 ### Disclaimer
 This post seeks to offer clarity on using UI Automation, but makes no claim to be authoritative on describing it. This post is also not a primer on using UI Automation in Instruments. Please refer to the section *Built-in Instruments > UI Automation* section in the 
-[Instruments User Guide](https://developer.apple.com/library/mac/#documentation/developertools/conceptual/InstrumentsUserGuide/Built-InInstruments/Built-InInstruments.html) for this.
+[Instruments User Guide](https://developer.apple.com/library/mac/#documentation/developertools/conceptual/InstrumentsUserGuide/Built-InInstruments/Built-InInstruments.html) for this. This is also not a primer on UI testing.
 
 ## The Basic Idea
 
@@ -63,8 +63,7 @@ Since there is only one `UILabel` instance, it can be accessed in the array retu
 Note that the UIA JavaScript object tree *flattens the standard `UIView` hierarchy* so that child objects within a standard `UIView` that is the child of the parent view in `UIWindow` will be listed from `topNode`. The exceptions are objects within a `UIScrollView` (mapped to the JS `UIAScrollView`) and other objects which inherit from it (`UIATableView`, `UIAWebView`).
 
 
-
-## UI Changes
+## Controlling and Observing UI Automation
 
 From an iOS SDK perspective, the app view hierarchy can change either within the view controller or via navigation of different view controllers. 
 
@@ -96,6 +95,36 @@ The [following app example](https://github.com/kickingvegas/UI-Automation-Exampl
 
 In this app, tapping on the **Next** button in the navigation bar pushes the next view controller into view.<br/>
 
+### A Side Note - Using UI Automation in Instruments
+
+It can be daunting to figure *where* the controls for UI Automation are. These screenshots hope to provide some clarity on this.
+
+1. First open `uiaexample.xcworkspace`. You will see the following image. Build `uiaexample`.
+
+    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/uiaexample_xcode.jpg' width='90%' />
+    
+2. Open Instruments with the trace file `uiaex_instruments.trace` as shown below:
+
+    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/launch_uiautomation_instruments.png' width='90%' />
+    
+3. Instruments will be shown as below. Note the section where you can manage the UI Automation scripts you write.
+
+    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/uiaex_instruments.jpg' width='90%' />
+    
+4. Note the select picker where you can choose to view your script, the editor log, or the trace log. Choose *Script*.
+
+    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/choose_view.png' width='90%' />
+
+5. Edit your script to your heart's content. Note that playback of the script is controlled by the controls at the *bottom* of the screen.
+
+    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/uiautomation_script.png' width='90%' />
+    
+6. View the results of your UI Automation script by going back to the select picker and choosing *Editor Log*.
+
+    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/uiautomation_editor_log.png' width='90%' />
+    
+Now that there's some familiarity of the user interface for UI Automation in XCode 4, let's now go back to understanding UI Automation's JavaScript model of an iOS app.
+    
 ### JavaScript Model Traversal
 
 Starting with the **Home** screen, to traverse to the next screen **VC 1** one would execute the following code:
