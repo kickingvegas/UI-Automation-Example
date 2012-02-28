@@ -1,4 +1,3 @@
-# FIRST DRAFT: DO NOT DISTRIBUTE
 
 # Towards a Conceptual Understanding of UI Automation or "Look Ma, No Hands!"
 
@@ -198,7 +197,7 @@ The following shows the inheritance relationships between the JavaScript classes
 * [UIATarget](https://developer.apple.com/library/ios/documentation/ToolsLanguages/Reference/UIATargetClassReference/UIATargetClass/UIATargetClass.html#//apple_ref/doc/uid/TP40009924)
 * [UIAApplication](https://developer.apple.com/library/ios/documentation/ToolsLanguages/Reference/UIAApplicationClassReference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009899)
 
-&copy; 2012 Charles Y. Choi, Yummy Melon Software LLC
+&copy; 2012 Charles Y. Choi, [Yummy Melon Software LLC](http://www.yummymelon.com)
 
 # References
 * [Instruments User Guide](https://developer.apple.com/library/mac/#documentation/developertools/conceptual/InstrumentsUserGuide/Built-InInstruments/Built-InInstruments.html)
