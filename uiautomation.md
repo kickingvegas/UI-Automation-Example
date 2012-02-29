@@ -87,10 +87,11 @@ The latency is an issue in getting the sequence of events to send right to your 
 ## UIA Example
 
 The [following app example](https://github.com/kickingvegas/UI-Automation-Example) has three `UIViewController` instances managed by a `UINaviationController`.
+http://yummymelon.com/images/uiautomation/
 
-<img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/home_vc.png' width='280px'/>&nbsp;
-<img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/vc1.png' width='280px'/>&nbsp;
-<img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/vc2.png' width='280px'/>
+<img src='http://yummymelon.com/images/uiautomation/home_vc.png' width='280px'/>&nbsp;
+<img src='http://yummymelon.com/images/uiautomation/vc1.png' width='280px'/>&nbsp;
+<img src='http://yummymelon.com/images/uiautomation/vc2.png' width='280px'/>
 
 In this app, tapping on the **Next** button in the navigation bar pushes the next view controller into view.<br/>
 
@@ -100,27 +101,27 @@ It can be daunting to figure *where* the controls for UI Automation are. These s
 
 1. First open `uiaexample.xcworkspace`. You will see the following image. Build `uiaexample`.
 
-    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/uiaexample_xcode.jpg' width='90%' />
+    <img src='http://yummymelon.com/images/uiautomation/uiaexample_xcode.jpg' width='90%' />
     
 2. Open Instruments with the trace file `uiaex_instruments.trace` as shown below:
 
-    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/launch_uiautomation_instruments.png' width='90%' />
+    <img src='http://yummymelon.com/images/uiautomation/launch_uiautomation_instruments.png' width='90%' />
     
 3. Instruments will be shown as below. Note the section where you can manage the UI Automation scripts you write.
 
-    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/uiaex_instruments.jpg' width='90%' />
+    <img src='http://yummymelon.com/images/uiautomation/uiaex_instruments.jpg' width='90%' />
     
 4. Note the select picker where you can choose to view your script, the editor log, or the trace log. Choose *Script*.
 
-    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/choose_view.png' width='90%' />
+    <img src='http://yummymelon.com/images/uiautomation/choose_view.png' width='90%' />
 
 5. Edit your script to your heart's content. Note that playback of the script is controlled by the controls at the *bottom* of the screen.
 
-    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/uiautomation_script.png' width='90%' />
+    <img src='http://yummymelon.com/images/uiautomation/uiautomation_script.png' width='90%' />
     
 6. View the results of your UI Automation script by going back to the select picker and choosing *Editor Log*.
 
-    <img src='http://yms.dyndns.biz/~cchoi/uiautomation/images/uiautomation_editor_log.png' width='90%' />
+    <img src='http://yummymelon.com/images/uiautomation/uiautomation_editor_log.png' width='90%' />
     
 Now that there's some familiarity of the user interface for UI Automation in XCode 4, let's now go back to understanding UI Automation's JavaScript model of an iOS app.
     
