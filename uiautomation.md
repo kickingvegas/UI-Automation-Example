@@ -178,7 +178,7 @@ The following shows the inheritance relationships between the JavaScript classes
     * [UIAScrollView](https://developer.apple.com/library/ios/documentation/ToolsLanguages/Reference/UIAScrollViewClassReference/UIAScrollView/UIAScrollView.html#//apple_ref/doc/uid/TP40009912)
          * [UIATableView](https://developer.apple.com/library/ios/documentation/ToolsLanguages/Reference/UIATableViewClassReference/UIATableView/UIATableView.html#//apple_ref/doc/uid/TP40009923)    
          * [UIAWebView](https://developer.apple.com/library/ios/#documentation/ToolsLanguages/Reference/UIAWebViewClassReference/UIAWebView/UIAWebView.html#//apple_ref/doc/uid/TP40009929)
-         * UIATextView (bug in Apple documentation omits info for this class)
+         * [UIATextView](https://developer.apple.com/library/ios/#documentation/ToolsLanguages/Reference/UIATextViewClassReference/UIATextView/UIATextView.html#//apple_ref/doc/uid/TP40009926)
     * [UIASegmentedControl](https://developer.apple.com/library/ios/documentation/ToolsLanguages/Reference/UIASegmentedControlClassReference/UIASegmentedControl/UIASegmentedControl.html#//apple_ref/doc/uid/TP40009915)
     * [UIASlider](https://developer.apple.com/library/ios/documentation/ToolsLanguages/Reference/UIASliderClassReference/UIASlider/UIASlider.html#//apple_ref/doc/uid/TP40009916)
     * [UIAStaticText](https://developer.apple.com/library/ios/documentation/ToolsLanguages/Reference/UIAStaticTextClassReference/UIAStaticText/UIAStaticText.html#//apple_ref/doc/uid/TP40009917)
